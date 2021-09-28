@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 500px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* background-color: darkgoldenrod; */
+  background-image: url("https://64.media.tumblr.com/cf22b0c05c762b083f2917b55c14552a/tumblr_no2uo8gVoG1tyc81qo1_500.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 5px;
+  text-align: center;
+}
+
+.title{
+    font-size: 18px;
+    opacity: 0.4;
+}
+
+.cityName{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.temp{
+    padding-top: 8px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.weather{
+    padding-top: 8px;
+    color: darkred;
+    font-size: 20px;
+}
+
+.date{
+    padding-top: 9px;
+    font-size: 18px;
+}
